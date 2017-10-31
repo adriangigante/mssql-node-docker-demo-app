@@ -25,4 +25,7 @@ RUN chmod +x /usr/src/app/import-data.sh
 
 EXPOSE 8080
 
+ENV ACCEPT_EULA Y
+ENV SA_PASSWORD Yukon900
+
 CMD /bin/bash ./entrypoint.sh
